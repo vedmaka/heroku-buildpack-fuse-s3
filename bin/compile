@@ -3,16 +3,18 @@
 #
 # version
 #
-fuse_version_major=2
-fuse_version_minor=9.4
-s3fs_version=1.78
+fuse_version_major=3
+fuse_version_minor=0.0rc2
+s3fs_version=1.83
 
-fuse_archive_filename=fuse-2.9.4.tar.gz
-fuse_download_url=https://github.com/libfuse/libfuse/releases/download/fuse_2_9_4/${fuse_archive_filename}
+# https://github.com/libfuse/libfuse/releases/download/fuse-3.0.0rc2/fuse-3.0.0rc2.tar.gz
+fuse_archive_filename=fuse-3.0.0rc2.tar.gz
+fuse_download_url=https://github.com/libfuse/libfuse/releases/download/fuse-3.0.0rc2/${fuse_archive_filename}
 
 echo ${fuse_download_url}
 
-s3fs_archive_filename=s3fs-fuse-1.78.tar.gz
+# https://github.com/s3fs-fuse/s3fs-fuse/archive/v1.83.tar.gz
+s3fs_archive_filename=s3fs-fuse-1.83.tar.gz
 s3fs_download_url=https://github.com/s3fs-fuse/s3fs-fuse/archive/v${s3fs_version}.tar.gz
 
 echo ${s3fs_download_url}
