@@ -103,7 +103,13 @@ echo "export PATH=\$HOME/s3fs/bin:\$HOME/s3fs/usr/bin:\$HOME/s3fs/usr/sbin:\$HOM
 # Mount with .profile.d script which is running as root (will it change in the future?)
 cat >> $build_dir/.profile.d/s3fs.sh << EOF
 whoami
+
+echo 'Done!!!!!'
+
 if [ -z "\$S3FS_DISABLE_MOUNT" ]; then
+
+    echo 'Going wild!'
+
     echo \${S3FS_AWS_ACCESS_KEY_ID:=\$AWS_ACCESS_KEY_ID}:\${S3FS_AWS_SECRET_ACCESS_KEY:=\$AWS_SECRET_ACCESS_KEY} > ~/.passwd-s3fs
     chmod 600 ~/.passwd-s3fs
 
