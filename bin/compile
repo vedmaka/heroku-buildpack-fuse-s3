@@ -4,7 +4,7 @@
 # version
 #
 fuse_version_major=2
-fuse_version_minor=9.4
+fuse_version_minor=9_4
 s3fs_version=1.78
 
 fuse_archive_filename=fuse-${fuse_version_major}.${fuse_version_minor}.tar.gz
