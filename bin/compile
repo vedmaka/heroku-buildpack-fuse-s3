@@ -49,12 +49,12 @@ if [ ! -f "$build_dir/s3fs/s3_built" ]; then
 	#
 	rm -rf /tmp/fuse/
 	mkdir -p /tmp/fuse/
-	curl -s ${fuse_download_url} -o /tmp/fuse/${fuse_archive_filename}
+	curl ${fuse_download_url} -o /tmp/fuse/${fuse_archive_filename}
 	tar -xvf /tmp/fuse/${fuse_archive_filename} -C /tmp/fuse
 
 	rm -rf /tmp/s3fs/
 	mkdir -p /tmp/s3fs/
-	curl -s ${s3fs_download_url} -o /tmp/s3fs/${s3fs_archive_filename}
+	curl ${s3fs_download_url} -o /tmp/s3fs/${s3fs_archive_filename}
 	tar -xvf /tmp/s3fs/${s3fs_archive_filename} -C /tmp/s3fs
 
 	#
