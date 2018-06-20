@@ -4,11 +4,11 @@
 # version
 #
 fuse_version_major=2
-fuse_version_minor=9_4
+fuse_version_minor=9.4
 s3fs_version=1.78
 
-fuse_archive_filename=fuse-${fuse_version_major}.${fuse_version_minor}.tar.gz
-fuse_download_url=https://github.com/libfuse/libfuse/releases/download/fuse_${fuse_version_major}_${fuse_version_minor}/${fuse_archive_filename}
+fuse_archive_filename=fuse-2.9.4.tar.gz
+fuse_download_url=https://github.com/libfuse/libfuse/releases/download/fuse_2_9_4/${fuse_archive_filename}
 
 echo ${fuse_download_url}
 
