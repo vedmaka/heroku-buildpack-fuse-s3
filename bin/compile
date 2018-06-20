@@ -8,7 +8,7 @@ fuse_version_minor=9.4
 s3fs_version=1.78
 
 fuse_archive_filename=fuse-${fuse_version_major}.${fuse_version_minor}.tar.gz
-fuse_download_url=https://github.com/libfuse/libfuse/releases/download/fuse_${fuse_version_major}_${fuse_version_major}_${fuse_version_minor}/${fuse_archive_filename}
+fuse_download_url=https://github.com/libfuse/libfuse/releases/download/fuse_${fuse_version_major}_${fuse_version_minor}/${fuse_archive_filename}
 
 echo ${fuse_download_url}
 
